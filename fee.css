@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:  linear-gradient(45deg, #ffaf00, #bb02ff );
+    background-attachment: fixed;
+}
+.container{
+    position: relative;
+    width: 1200px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container .fee-card{
+    position: relative;
+    width: 300px;
+    height: 420px;
+    background: #fff;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.8);
+    transition: 0.5s;
+}
+.container:hover .fee-card{
+    filter: blur(20px);
+    transform: scale(0.9);
+    opacity: 0.5;
+}
+.container .fee-card:hover{
+    filter: blur(0px);
+    transform: scale(1.1);
+    opacity: 1;
+}
+.container .fee-card .circle{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: black;
+    clip-path: circle(180px at center 0);
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    padding: 30px 0;
+}
+.container .fee-card .content{
+    position: absolute;
+    bottom: 10px;
+    padding: 20px;
+}
+.container .fee-card .content h3{
+    color: green;
+    padding-left: 65px;
+    font-style:italic;
+    margin-bottom: 10px;
+}
+.container .fee-card .content p{
+    padding-left: 25px;
+    font-family:serif;
+}
+.container .fee-card .content p span{
+    color: blue;
+    margin-left: 20px;
+    font-style:italic;
+}
+.container .fee-card .content p{
+    color: #666;
+}
+.container .fee-card .content a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #000;
+    border-radius: 40px;
+    text-decoration: none;
+    margin-top: 20px;
+    color: #fff;
+    margin-left: 60px;
+}
+.container .fee-card:nth-child(1) .circle,
+.container .fee-card:nth-child(1) .content a{
+    background: #ffaf00;
+}
+.container .fee-card:nth-child(2) .circle,
+.container .fee-card:nth-child(2) .content a{
+    background: #da2269;
+}
+.container .fee-card:nth-child(3) .circle,
+.container .fee-card:nth-child(3) .content a{
+    background: #bb02ff;
+}
+.container .fee-card:nth-child(4) .circle,
+.container .fee-card:nth-child(4) .content a{
+    background: fuchsia;
+}
+.container .fee-card:nth-child(5) .circle,
+.container .fee-card:nth-child(5) .content a{
+    background: blue;
+}
+.container .fee-card:nth-child(6) .circle,
+.container .fee-card:nth-child(6) .content a{
+    background: fuchsia;
+}
+table td, th{
+    font-size: 12px;
+    border: 0.1px solid;
+    text-align: center;
+    background: #B8CFCF;
+}

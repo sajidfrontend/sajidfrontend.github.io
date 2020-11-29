@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sitka;
+}
+body{
+    background-image:url(../images/das%20logo%20education1.png);
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 2500px;
+}
+.top-bar p{
+background: red;
+height: 50px;
+}
+.container .header .nav-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    background: white;
+    padding: 25px;
+    width: 100%;
+}
+.container .header .nav-bar li, 
+.container .header .nav-bar a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.container .header .nav-bar li{
+    background: #AC99F9;
+    color: white;
+    padding: 07px 15px;
+    margin: 05px 20px;
+    display: inline;
+    border-radius: 5px;
+}
+.container .header .nav-bar li:hover{
+    background: orange;
+    color: white;
+    cursor: pointer;
+}
+.container .header .logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+}
+.container .header .nav-bar img{
+    position: absolute;
+    left: 900px;
+    top: 5px;
+}
+    
+}
+.container .content{
+    margin-top: 100px;
+}
+.container .content h1 {
+    font-size:5.5em;
+    color:blue;
+    text-align: center;
+    margin: 0px 0px 190px 0;
+}
+.container .content span{
+    color: #1707F5;
+    font-size: 2em;
+}
+.container .content h3 {
+    text-align: center;
+    color: cornflowerblue;
+    font-size: 3em;
+    margin: 40px 0;
+}
+.h3{
+    color: blue;
+    width: 740px;
+    margin: auto;
+}
+
+hr{
+    margin: 30px;
+}
+.container .content .image-galley{
+    float: left;
+    box box-sizing: border-box;
+    background: white;
+    margin: 40px 0;
+}
+.container .content .image-galley img{
+    margin-bottom: 30px;
+    padding: 10px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius:100px;
+    box-shadow: 7px 7px 5px #777777;
+
+}
+.container .content .image-galley img:hover{
+    position: relative;
+    top: 20px;
+    left: 5px;
+}
+p {
+  
+    text-align: center;
+}
+table thead tr {
+    color:green;
+}
+.hlight {
+    background-color: gold;
+}
+footer .hlight {
+    background-color: lightgrey;
+}
+aside p span {
+    color: #1707F5;
+}
+.css {
+    background-color:greenyellow;
+    padding:10px;
+    border:3px solid black;
+    margin-bottom:60px;
+    width:200px;
+    height:150px;
+    box-sizing:border-box;
+
+}
+.cssb {
+    background-color:greenyellow;
+    margin-bottom:30px;
+    width:200px;
+    height:150px;
+}
+.cssc {
+    background-color:green;
+    padding:60px;
+    border:23px solid black;
+}
+.container { max-width:1300px; margin: auto; }
+.credits{
+    display: flex;
+    justify-content:center;
+    background: #1707F5;
+    width: 200px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px 20px;
+    color: white;
+    font-weight: bold;
+    align-items:center;
+    font-size: 1.2em;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
+    
+}
